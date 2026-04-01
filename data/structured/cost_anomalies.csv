@@ -1,0 +1,35 @@
+item_id,item_name,issue,severity
+ITEM-001,Chicken Fry (KCF),6 ingredients missing cost data,MEDIUM
+ITEM-002,Chicken Curry,10 ingredients missing cost data,MEDIUM
+ITEM-003,Ghee Rice,4 ingredients missing cost data,MEDIUM
+ITEM-004,Mutton Varuval,13 ingredients missing cost data,MEDIUM
+ITEM-005,Pongal,1 ingredients missing cost data,MEDIUM
+ITEM-006,Sambar,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-007,Lunch Sambar,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-008,Rasam,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-009,Pasi Paruppu,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-010,PULI KUZHAMBU,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-011,MOOR KUZHABU,7 ingredients missing cost data,MEDIUM
+ITEM-012, CUTLET,9 ingredients missing cost data,MEDIUM
+ITEM-013,PORIYAL,8 ingredients missing cost data,MEDIUM
+ITEM-014,KOOTU,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-015,KARA CURRY,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-016,PARUPPU VADAI,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-017,PAYASAM,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-018,TIFFEN SAMBAR,11 ingredients missing cost data,MEDIUM
+ITEM-019,UPMA,7 ingredients missing cost data,MEDIUM
+ITEM-020,PONGAL,5 ingredients missing cost data,MEDIUM
+ITEM-021,RAVA KICHADI,7 ingredients missing cost data,MEDIUM
+ITEM-022,POORI MASALA,5 ingredients missing cost data,MEDIUM
+ITEM-023,ULLUNDHU VADAI,6 ingredients missing cost data,MEDIUM
+ITEM-024,CURD RICE,7 ingredients missing cost data,MEDIUM
+ITEM-025,VEG BIRYANI,12 ingredients missing cost data,MEDIUM
+ITEM-026,CHI R MUTTON BIRYANI,9 ingredients missing cost data,MEDIUM
+ITEM-027,GHEE RICE,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-028,KADALA CURRY,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-029,CHI OR MUT KULAMBHU,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-030,PANNER BUTTER MASALA,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-031,KARA CHATNI,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-032,TOMATO CHATNI,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-033,COCONUT CHATNI,Could not calculate ingredient cost (missing quantities or prices),HIGH
+ITEM-034,COFFEE TEA SUKKU PAAL,Could not calculate ingredient cost (missing quantities or prices),HIGH

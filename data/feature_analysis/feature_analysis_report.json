@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-03-28T11:51:10.925211",
+  "data_summary": {
+    "menu_items": 34,
+    "ingredients": 129,
+    "working_items": 26,
+    "training_samples": 500,
+    "valid_samples": 444
+  },
+  "performance_benchmarks": {
+    "extraction_time_ms": 2790.77,
+    "fit_time_ms": 7.33,
+    "transform_time_ms": 11.02,
+    "single_prediction_ms": 12.09,
+    "samples": 500,
+    "raw_features": 16,
+    "transformed_features": 25
+  },
+  "feature_counts": {
+    "raw_features": 16,
+    "transformed_features": 25,
+    "selected_features": 4
+  },
+  "model_performance": {
+    "r2_mean": 0.9633,
+    "r2_std": 0.0224,
+    "mape_mean": 13.5,
+    "mape_std": 2.76
+  },
+  "high_correlations": [],
+  "selected_features": [
+    "base_ingredient_cost",
+    "quantity",
+    "menu_category_breakfast",
+    "is_wedding_season"
+  ],
+  "feature_importance_top10": [
+    {
+      "feature": "base_ingredient_cost",
+      "importance": 0.723349229524363,
+      "importance_pct": 72.3349229524363,
+      "cumulative_pct": 72.3349229524363,
+      "rank": 1
+    },
+    {
+      "feature": "quantity",
+      "importance": 0.16040814927673702,
+      "importance_pct": 16.0408149276737,
+      "cumulative_pct": 88.37573788011,
+      "rank": 2
+    },
+    {
+      "feature": "menu_category_breakfast",
+      "importance": 0.039585193043196104,
+      "importance_pct": 3.9585193043196103,
+      "cumulative_pct": 92.3342571844296,
+      "rank": 3
+    },
+    {
+      "feature": "recipe_complexity",
+      "importance": 0.029615342229374952,
+      "importance_pct": 2.9615342229374955,
+      "cumulative_pct": 95.2957914073671,
+      "rank": 4
+    },
+    {
+      "feature": "menu_category_nonveg_main",
+      "importance": 0.021852586168284092,
+      "importance_pct": 2.1852586168284094,
+      "cumulative_pct": 97.48105002419551,
+      "rank": 5
+    },
+    {
+      "feature": "guest_count",
+      "importance": 0.004778622641957421,
+      "importance_pct": 0.47786226419574207,
+      "cumulative_pct": 97.95891228839125,
+      "rank": 6
+    },
+    {
+      "feature": "days_until_event",
+      "importance": 0.0038583841544113495,
+      "importance_pct": 0.38583841544113495,
+      "cumulative_pct": 98.34475070383237,
+      "rank": 7
+    },
+    {
+      "feature": "month_sin",
+      "importance": 0.0034984060121492147,
+      "importance_pct": 0.34984060121492144,
+      "cumulative_pct": 98.6945913050473,
+      "rank": 8
+    },
+    {
+      "feature": "day_of_week_sin",
+      "importance": 0.002799947868375561,
+      "importance_pct": 0.2799947868375561,
+      "cumulative_pct": 98.97458609188486,
+      "rank": 9
+    },
+    {
+      "feature": "day_of_week_cos",
+      "importance": 0.002475106008478202,
+      "importance_pct": 0.2475106008478202,
+      "cumulative_pct": 99.22209669273268,
+      "rank": 10
+    }
+  ],
+  "validations": [
+    {
+      "check": "Expected feature \"quantity\" in top 5",
+      "status": "PASS",
+      "details": "Found at rank 2"
+    },
+    {
+      "check": "Expected feature \"base_ingredient_cost\" in top 5",
+      "status": "PASS",
+      "details": "Found at rank 1"
+    },
+    {
+      "check": "Expected feature \"recipe_complexity\" in top 5",
+      "status": "PASS",
+      "details": "Found at rank 4"
+    }
+  ]
+}

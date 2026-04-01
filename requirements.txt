@@ -1,0 +1,17 @@
+# ML Costing - Dependencies
+# Install: pip install -r requirements.txt
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# API Framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0

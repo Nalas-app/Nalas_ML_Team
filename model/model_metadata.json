@@ -1,0 +1,51 @@
+{
+  "model_name": "Baseline: Mean Cost",
+  "model_type": "RandomForestRegressor",
+  "version": "v1.0.0",
+  "trained_at": "2026-03-28T12:10:44.797049",
+  "training_samples": 620,
+  "test_samples": 133,
+  "features": [
+    "base_ingredient_cost",
+    "quantity",
+    "recipe_complexity",
+    "guest_count",
+    "historical_demand",
+    "days_until_event",
+    "price_volatility",
+    "recent_price_trend",
+    "has_perishable",
+    "is_weekend",
+    "is_wedding_season",
+    "is_festival_season",
+    "month_sin",
+    "month_cos",
+    "day_of_week_sin",
+    "day_of_week_cos",
+    "menu_category_breakfast",
+    "menu_category_nonveg_main",
+    "menu_category_rice",
+    "menu_category_veg_main",
+    "event_type_Birthday",
+    "event_type_Corporate",
+    "event_type_Other",
+    "event_type_Wedding"
+  ],
+  "n_features": 24,
+  "metrics": {
+    "test_MAPE": 8.68,
+    "test_RMSE": 1736772.69,
+    "test_R2": 0.9954,
+    "test_MAE": 452601.14
+  },
+  "hyperparameters": {},
+  "all_models_compared": [
+    "Baseline: Mean Cost",
+    "Linear Regression",
+    "Ridge Regression",
+    "Random Forest",
+    "Gradient Boosting",
+    "Random Forest (Tuned)",
+    "Gradient Boosting (Tuned)"
+  ]
+}

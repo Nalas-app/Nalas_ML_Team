@@ -1,0 +1,130 @@
+ingredient_id,ingredient_name,category,unit,price_per_unit,is_perishable,last_updated
+ING-001,Asafoetida Powder (LG),Spices,PCS,135.0,False,2026-03-28
+ING-002,Basmati Rice,Rice & Others,KG,130.0,False,2026-03-28
+ING-003,Bay Leaf,Spices,KG,250.0,False,2026-03-28
+ING-004,Beans French,Vegetable & Fruits,KG,95.0,False,2026-03-28
+ING-005,Bengal Gram Dhal (kadalai Paruppu),Rice & Others,KG,125.0,False,2026-03-28
+ING-006,Black Pepper Corn,Spices,KG,860.0,False,2026-03-28
+ING-007,Black Pepper Powder,Spices,KG,800.0,False,2026-03-28
+ING-008,Boiled Rice,Rice & Others,KG,68.0,False,2026-03-28
+ING-009,Brinjal,Vegetable & Fruits,KG,40.0,False,2026-03-28
+ING-010,Butter,Dairy Products,KG,600.0,False,2026-03-28
+ING-011,Cabbage,Vegetable & Fruits,KG,40.0,False,2026-03-28
+ING-012,Capsicum Green,Vegetable & Fruits,KG,70.0,False,2026-03-28
+ING-013,Cardamom (elachi),Spices,KG,3200.0,False,2026-03-28
+ING-014,Carrot,Vegetable & Fruits,KG,60.0,False,2026-03-28
+ING-015,Cashew Nut (1/4) or (1/2),Dry Fruits,KG,980.0,False,2026-03-28
+ING-016,CASHEW NUT (Thool),Dry Fruits,KG,600.0,False,2026-03-28
+ING-017,Cauiflower,Vegetable & Fruits,nan,50.0,False,2026-03-28
+ING-018,Channa Masala,Spices,KG,650.0,False,2026-03-28
+ING-019,Chicken - BONELESS,Meat & Poultry,KG,320.0,False,2026-03-28
+ING-020,Chicken - Janatha,Meat & Poultry,KG,80.0,False,2026-03-28
+ING-021,Chicken - Trimming,Meat & Poultry,KG,240.0,False,2026-03-28
+ING-022,Chicken - Whole Bird (Skinless),Meat & Poultry,KG,190.0,False,2026-03-28
+ING-023,Chicken Masala (shakthi),Spices,KG,285.0,False,2026-03-28
+ING-024,Chilli Powder (shakthi),Spices,KG,320.0,False,2026-03-28
+ING-025,Cinnamon (pattai),Spices,KG,385.0,False,2026-03-28
+ING-026,Cinnamon (pattai),Spices,KG,385.0,False,2026-03-28
+ING-027,Cloves (Kirambu),Spices,KG,900.0,False,2026-03-28
+ING-028,Coconut,Vegetable & Fruits,KG,50.0,False,2026-03-28
+ING-029,Coffee Powder,Provisions,KG,900.0,False,2026-03-28
+ING-030,Coriander Powder (dhainya Powder),Spices,KG,180.0,False,2026-03-28
+ING-031,Coriander Seeds-whole (Dhaniya),Spices,KG,180.0,False,2026-03-28
+ING-032,Corinder Leaves,Vegetable & Fruits,BUNCH,50.0,False,2026-03-28
+ING-033,Corn Flour,Rice & Others,KG,65.0,False,2026-03-28
+ING-034,Cucumber,Vegetable & Fruits,KG,60.0,False,2026-03-28
+ING-035,Cumin Seeds (jeera),Spices,KG,600.0,False,2026-03-28
+ING-036,Curd,Dairy Products,KG,80.0,False,2026-03-28
+ING-037,Curry Leaves,Vegetable & Fruits,KG,50.0,False,2026-03-28
+ING-038,Dishwash Bar,Cleaning Materials,PCS,60.0,False,2026-03-28
+ING-039,Dishwash Liquid (Soap Oil),Cleaning Materials,LTS,75.0,False,2026-03-28
+ING-040,Drinking Water Can (20 Ltrs),Provisions,PCS,50.0,False,2026-03-28
+ING-041,Egg,Meat & Poultry,PCS,7.0,False,2026-03-28
+ING-042,Fennel (sombu),Spices,KG,385.0,False,2026-03-28
+ING-043,Fenugreek Seeds (vendhayam),Spices,KG,135.0,False,2026-03-28
+ING-044,Flat Rice - Thick (aval - Getti),Rice & Others,KG,70.0,False,2026-03-28
+ING-045,Fried Gram Dhal (udachakadalai),Spices,KG,130.0,False,2026-03-28
+ING-046,Garam Masala (everest),Spices,KG,1000.0,False,2026-03-28
+ING-047,Garbage Cover - XL,Cleaning Materials,KG,150.0,False,2026-03-28
+ING-048,Garlic,Vegetable & Fruits,KG,200.0,False,2026-03-28
+ING-049,Ghee,Dairy Products,KG,560.0,False,2026-03-28
+ING-050,Ginger Fresh,Vegetable & Fruits,KG,140.0,False,2026-03-28
+ING-051,Green Chilli,Vegetable & Fruits,KG,120.0,False,2026-03-28
+ING-052,Green Chilli Sauce (700 Ml),Provisions,PCS,80.0,False,2026-03-28
+ING-053,Groundnut,Spices,KG,330.0,False,2026-03-28
+ING-054,Head Cap (Pkt),OTHER'S,PKT,70.0,False,2026-03-28
+ING-055,Idly Batter,Provisions,KG,40.0,False,2026-03-28
+ING-056,Lemon,Vegetable & Fruits,KG,10.0,False,2026-03-28
+ING-057,LPG Cylinder,Utilities,NOS,2000.0,False,2026-03-28
+ING-058,Maida (Refined Flour),Rice & Others,KG,65.0,False,2026-03-28
+ING-059,Milk,Dairy Products,LTS,78.0,False,2026-03-28
+ING-060,Mint Leaves,Vegetable & Fruits,kg,75.0,False,2026-03-28
+ING-061,Moong Daal (paasi Paruppu),Rice & Others,KG,130.0,False,2026-03-28
+ING-062,Mustard Seed,Spices,KG,3800.0,False,2026-03-28
+ING-063,MUTTON - Boneless,Meat & Poultry,KG,1000.0,False,2026-03-28
+ING-064,MUTTON - Fat,Meat & Poultry,KG,500.0,False,2026-03-28
+ING-065,Onions,Vegetable & Fruits,KG,80.0,False,2026-03-28
+ING-066,Papad (appalam) - Round,Provisions,PKT,130.0,False,2026-03-28
+ING-067,Phenoyl (700 Ml),Cleaning Materials,PCS,60.0,False,2026-03-28
+ING-068,Pickle (mango Thokku- 777 Brand),Provisions,KG,50.0,False,2026-03-28
+ING-069,Potato,Vegetable & Fruits,KG,50.0,False,2026-03-28
+ING-070,Rice - seeragasamba,Rice & Others,KG,200.0,False,2026-03-28
+ING-071,Rawa (sooji),Rice & Others,KG,75.0,False,2026-03-28
+ING-072,Red Chilli - Long,Spices,KG,240.0,False,2026-03-28
+ING-073,Red Chilli - Round,Spices,KG,310.0,False,2026-03-28
+ING-074,Refind Oil,Provisions,LTS,145.0,False,2026-03-28
+ING-075,Rock Salt,Provisions,KG,17.0,False,2026-03-28
+ING-076,Salt,Provisions,KG,30.0,False,2026-03-28
+ING-077,Sambar Masala (shakthi),Spices,KG,320.0,False,2026-03-28
+ING-078,SCRUBBER - DISHWASH,Cleaning Materials,PCS,10.0,False,2026-03-28
+ING-079,Small Onions,Vegetable & Fruits,KG,60.0,False,2026-03-28
+ING-080,Soya Sauce (700 Ml),Provisions,PCS,80.0,False,2026-03-28
+ING-081,Sugar,Provisions,KG,75.0,False,2026-03-28
+ING-082,Surgical Hand Gloves (Pkt),OTHER'S,PKT,60.0,False,2026-03-28
+ING-083,Tamarind (puli),Provisions,KG,250.0,False,2026-03-28
+ING-084,Tea Powder,Provisions,KG,800.0,False,2026-03-28
+ING-085,Tomato Country,Vegetable & Fruits,KG,50.0,False,2026-03-28
+ING-086,Tomato Sauce (1 Ltr),Provisions,PCS,85.0,False,2026-03-28
+ING-087,Toor Dhal (thuvaram Paruppu),Rice & Others,KG,100.0,False,2026-03-28
+ING-088,Turmeric Powder,Spices,KG,260.0,False,2026-03-28
+ING-089,Urad Dhal (ulutham Paruppu),Rice & Others,KG,180.0,False,2026-03-28
+ING-090,Vermicili (semiya) - Savorite,Rice & Others,KG,90.0,False,2026-03-28
+ING-091,Vinegar (1 Ltr),Provisions,PCS,16.0,False,2026-03-28
+ING-092,Wheat Flour (atta),Rice & Others,KG,36.0,False,2026-03-28
+ING-093,White Channa,Rice & Others,KG,80.0,False,2026-03-28
+ING-094,White Pepper Powder,Spices,KG,200.0,False,2026-03-28
+ING-095,kolapasi masala powder,Spices,kg,480.0,False,2026-03-28
+ING-096,Keema Masala Powder,spices,KG,450.0,False,2026-03-28
+ING-097,Chukka Masala Powder,spices,KG,600.0,False,2026-03-28
+ING-098,Mutton Varuval Powder,spices,KG,550.0,False,2026-03-28
+ING-099,Prawn Masala Powder,spices,KG,550.0,False,2026-03-28
+ING-100,Garam Masala Powder,spices,KG,850.0,False,2026-03-28
+ING-101,Idli Podi,spices,KG,300.0,False,2026-03-28
+ING-102,Kadai Masala,spices,KG,0.0,False,2026-03-28
+ING-103,Ginger Paste,paste,KG,65.0,False,2026-03-28
+ING-104,Garlic Paste,paste,KG,140.0,False,2026-03-28
+ING-105,GG Paste,paste,KG,90.0,False,2026-03-28
+ING-106,Kashmiri Chilli,spices,KG,450.0,False,2026-03-28
+ING-107,Coconu oil,nan,lit]re,360.0,False,2026-03-28
+ING-108,Prawns washed,nan,kg,450.0,False,2026-03-28
+ING-109,Gingelly oil,nan,litre,250.0,False,2026-03-28
+ING-110,peanut oil,nan,litre,200.0,False,2026-03-28
+ING-111,crab boneless,nan,kg,480.0,False,2026-03-28
+ING-112,fish,nan,nan,200.0,False,2026-03-28
+ING-113,mutton boneless,nan,kg,830.0,False,2026-03-28
+ING-114,rice flour,nan,kg,55.0,False,2026-03-28
+ING-115,besan flour,nan,kg,90.0,False,2026-03-28
+ING-116,Green chicken masala,nan,kg,550.0,False,2026-03-28
+ING-117,Biriyani Masala powder,nan,kg,600.0,False,2026-03-28
+ING-118,Changezi Masala powder,nan,kg,450.0,False,2026-03-28
+ING-119,Kasoori Methi,nan,kg,1000.0,False,2026-03-28
+ING-120,Cream,nan,ltr,250.0,False,2026-03-28
+ING-121,soya,nan,kg,90.0,False,2026-03-28
+ING-122,Coconut powder (deoiled),nan,kg,30.0,False,2026-03-28
+ING-123,Copra,nan,kg,100.0,False,2026-03-28
+ING-124,Garlic Dehyrdated,nan,kg,120.0,False,2026-03-28
+ING-125,Bread,nan,kg,100.0,False,2026-03-28
+ING-126,stock water,nan,kg,30.0,False,2026-03-28
+ING-127,Cinnamon (ceylon),nan,kg,1350.0,False,2026-03-28
+ING-128,Pineapple,nan,piece,50.0,False,2026-03-28
+ING-129,vadai paruppu,nan,kg,104.0,False,2026-03-28

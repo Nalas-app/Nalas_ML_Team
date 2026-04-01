@@ -1,0 +1,8 @@
+model,MAE,RMSE,R2,MAPE,train_time_ms,pred_latency_ms,CV_R2_mean,CV_R2_std,CV_MAPE_mean,best_params
+Baseline: Mean Cost,452601.14,1736772.69,0.9954,8.68,9.16,0.0075,,,,
+Gradient Boosting (Tuned),1066817.8,3982687.23,0.9759,14.49,,,,,,"{'learning_rate': 0.05, 'max_depth': 8, 'n_estimators': 300}"
+Random Forest (Tuned),1947771.89,8264308.78,0.896,14.63,,,,,,"{'max_depth': 15, 'min_samples_split': 2, 'n_estimators': 200}"
+Random Forest,2074091.11,8565321.31,0.8883,15.13,190.25,0.2286,0.8653,0.0754,36.94,
+Gradient Boosting,1039472.16,4123708.02,0.9741,18.4,408.09,0.0226,0.9184,0.0708,39.49,
+Ridge Regression,8972866.76,25144602.43,0.0376,24696.61,3.0,0.0074,0.6313,0.1,194726.65,
+Linear Regression,9046022.26,25255590.35,0.029,25681.7,4.07,0.0114,0.6288,0.1022,199452.59,

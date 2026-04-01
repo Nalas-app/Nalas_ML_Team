@@ -1,0 +1,51 @@
+{
+  "modelVersion": "v1.0.0",
+  "algorithm": "RandomForestRegressor",
+  "trainedDate": "2026-03-28T12:32:35.636962",
+  "trainingDataSize": 620,
+  "features": [
+    "base_ingredient_cost",
+    "quantity",
+    "recipe_complexity",
+    "guest_count",
+    "historical_demand",
+    "days_until_event",
+    "price_volatility",
+    "recent_price_trend",
+    "has_perishable",
+    "is_weekend",
+    "is_wedding_season",
+    "is_festival_season",
+    "month_sin",
+    "month_cos",
+    "day_of_week_sin",
+    "day_of_week_cos",
+    "menu_category_breakfast",
+    "menu_category_nonveg_main",
+    "menu_category_rice",
+    "menu_category_veg_main",
+    "event_type_Birthday",
+    "event_type_Corporate",
+    "event_type_Other",
+    "event_type_Wedding"
+  ],
+  "performanceMetrics": {
+    "test_MAPE": 8.68,
+    "test_RMSE": 1736772.69,
+    "test_R2": 0.9954,
+    "test_MAE": 452601.14
+  },
+  "hyperparameters": {},
+  "businessRules": {
+    "laborMultiplier": 0.15,
+    "overheadMultiplier": 0.1,
+    "wastageMultiplier": 0.05,
+    "profitMultiplier": 0.1
+  },
+  "limitations": [
+    "Accuracy degrades for items with < 10 historical orders",
+    "Assumes current ingredient prices",
+    "Does not handle custom menu items",
+    "Seasonality only captured if event_date provided"
+  ]
+}

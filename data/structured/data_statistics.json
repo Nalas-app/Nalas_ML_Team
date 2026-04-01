@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-03-28T10:53:56.586414",
+  "menu_items": {
+    "total": 34,
+    "with_quantities": 7,
+    "without_quantities": 27,
+    "by_category": {
+      "Veg Main Course": 28,
+      "Non-Veg Main Course": 3,
+      "Rice": 1,
+      "Breakfast": 1,
+      "Side Dish": 1
+    },
+    "by_source": {
+      "Menu File": 28,
+      "Kitchen File": 6
+    }
+  },
+  "ingredients": {
+    "total": 129,
+    "with_prices": 129,
+    "without_prices": 0,
+    "by_category": {
+      "Spices": 26,
+      "nan": 23,
+      "Vegetable & Fruits": 19,
+      "Provisions": 15,
+      "Rice & Others": 14,
+      "spices": 8,
+      "Meat & Poultry": 7,
+      "Cleaning Materials": 5,
+      "Dairy Products": 4,
+      "paste": 3,
+      "Dry Fruits": 2,
+      "OTHER'S": 2,
+      "Utilities": 1
+    },
+    "price_stats": {
+      "min": 0.0,
+      "max": 3800.0,
+      "mean": 323.5348837209302,
+      "median": 135.0
+    }
+  },
+  "recipes": {
+    "total_rows": 586,
+    "unique_items_with_recipes": 34,
+    "with_quantities": 329,
+    "without_quantities": 257,
+    "matched_ingredients": 361,
+    "unmatched_ingredients": 225,
+    "avg_ingredients_per_item": 17.2,
+    "max_ingredients_per_item": 27,
+    "min_ingredients_per_item": 1
+  },
+  "costs": {
+    "items_with_costs": 17,
+    "cost_stats": {
+      "min": 375.38,
+      "max": 3409305.9,
+      "mean": 282262.6,
+      "median": 375.38,
+      "std": 871992.74
+    },
+    "ingredient_cost_stats": {
+      "min": 262.5,
+      "max": 2384130.0,
+      "mean": 197386.43
+    }
+  }
+}

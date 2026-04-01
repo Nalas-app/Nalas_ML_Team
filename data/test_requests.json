@@ -1,0 +1,60 @@
+{
+  "scenarios": [
+    {
+      "name": "Standard Validation (Expected 200 OK - ML Model)",
+      "request": {
+        "menuItemId": "ITEM-001",
+        "quantity": 100,
+        "eventDate": "2026-11-20",
+        "guestCount": 150
+      },
+      "expectedStatus": 200,
+      "expectedMethod": "ml_model"
+    },
+    {
+      "name": "Low Confidence Warning (Expected 200 OK - Manual Review Flag)",
+      "request": {
+        "menuItemId": "ITEM-002",
+        "quantity": 5000,
+        "eventDate": "2026-12-25"
+      },
+      "expectedStatus": 200,
+      "notes": "Extremely high quantity forces ML prediction to drop confidence."
+    },
+    {
+      "name": "Rule-Based Fallback (Expected 200 OK - Rule Based)",
+      "request": {
+        "menuItemId": "Chicken Fry (KCF)",
+        "quantity": 10,
+        "eventDate": "2026-05-15"
+      },
+      "expectedStatus": 200,
+      "notes": "Name-based query triggers validation but operates normally, utilizing rule based if it lacks sufficient ML historicals."
+    },
+    {
+      "name": "Invalid Input Missing Quantity (Expected 422 Unprocessable Entity)",
+      "request": {
+        "menuItemId": "ITEM-001"
+      },
+      "expectedStatus": 422
+    },
+    {
+      "name": "Invalid Menu Item (Expected 400 Bad Request)",
+      "request": {
+        "menuItemId": "FAKE-ITEM",
+        "quantity": 50
+      },
+      "expectedStatus": 400,
+      "expectedErrorCode": "ML_002"
+    },
+    {
+      "name": "Uncostable Item Lacking Recipe (Expected 404 Not Found)",
+      "request": {
+        "menuItemId": "ITEM-027",
+        "quantity": 100
+      },
+      "expectedStatus": 404,
+      "notes": "Items that do not have any ingredients in the master or recipe database will fail cost calculations safely."
+    }
+  ]
+}

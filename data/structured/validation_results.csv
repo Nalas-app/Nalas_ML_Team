@@ -1,0 +1,8 @@
+check,status,details,missing
+All menu items have recipes,✅ PASS,34/34 items have recipe data,0
+All recipes have ingredient quantities,⚠️ PARTIAL,329/586 recipe rows have quantities (56.1%),257
+All ingredients have costs,✅ PASS,129/129 ingredients have prices (100.0%),0
+No negative quantities,✅ PASS,0 negative quantities found,0
+No negative costs,✅ PASS,0 negative costs found,0
+Units are consistent,⚠️ REVIEW,"12 unique units found: ['PCS', 'KG', 'nan', 'BUNCH', 'LTS', 'PKT', 'NOS', 'kg', 'lit]re', 'litre']",0
+All recipe ingredients matched to master,⚠️ PARTIAL,225 unmatched ingredient references,225

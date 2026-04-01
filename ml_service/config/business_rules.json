@@ -1,0 +1,32 @@
+{
+    "labor_pct": 0.15,
+    "overhead_pct": 0.10,
+    "wastage_pct": 0.05,
+    "profit_pct": 0.10,
+    "seasonal_adjustments": {
+        "wedding": {"months": [10, 11, 12, 1, 2], "adjustment": 0.15},
+        "festival": {"months": [3, 4], "adjustment": 0.10},
+        "off_season": {"months": [5, 6, 7, 8, 9], "adjustment": 0.0}
+    },
+    "bulk_discounts": [
+        {"min_qty": 1, "max_qty": 100, "discount": 0.0},
+        {"min_qty": 101, "max_qty": 300, "discount": 0.05},
+        {"min_qty": 301, "max_qty": 500, "discount": 0.08},
+        {"min_qty": 501, "max_qty": 1000, "discount": 0.10},
+        {"min_qty": 1001, "max_qty": 999999, "discount": 0.12}
+    ],
+    "min_cost_per_serving": {
+        "Non-Veg Main Course": 100,
+        "Veg Main Course": 50,
+        "Rice": 60,
+        "Breakfast": 40,
+        "Side Dish": 30,
+        "Dessert": 40,
+        "Starter": 45,
+        "Beverage": 20,
+        "default": 40
+    },
+    "model_version": "v0.1.0",
+    "cache_ttl_seconds": 3600,
+    "max_variance_pct": 30
+}

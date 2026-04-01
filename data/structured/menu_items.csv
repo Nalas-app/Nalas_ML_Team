@@ -1,0 +1,35 @@
+item_id,item_name,category,base_unit,description,source,has_quantities,has_cost_data
+ITEM-001,Chicken Fry (KCF),Non-Veg Main Course,6kg batch,Recipe from NRC Kitchen file - KCF,Kitchen File,True,True
+ITEM-002,Chicken Curry,Non-Veg Main Course,1 batch,Recipe from NRC Kitchen file - C Curry,Kitchen File,True,True
+ITEM-003,Ghee Rice,Rice,2kg batch,Recipe from NRC Kitchen file - Ghee Rice,Kitchen File,True,True
+ITEM-004,Mutton Varuval,Non-Veg Main Course,1 batch,Recipe from NRC Kitchen file - M Varuval,Kitchen File,True,True
+ITEM-005,Pongal,Breakfast,1 batch,Recipe from NRC Kitchen file - Pongal,Kitchen File,True,True
+ITEM-006,Sambar,Side Dish,1 batch,Recipe from NRC Kitchen file - Sambar,Kitchen File,True,True
+ITEM-007,Lunch Sambar,Veg Main Course,25 person batch,Recipe from NRC Menu file - Lunch Sambar,Menu File,False,False
+ITEM-008,Rasam,Veg Main Course,25 person batch,Recipe from NRC Menu file - Rasam,Menu File,False,False
+ITEM-009,Pasi Paruppu,Veg Main Course,25 person batch,Recipe from NRC Menu file - Pasi Paruppu,Menu File,False,False
+ITEM-010,PULI KUZHAMBU,Veg Main Course,25 person batch,Recipe from NRC Menu file - PULI KUZHAMBU,Menu File,False,False
+ITEM-011,MOOR KUZHABU,Veg Main Course,25 person batch,Recipe from NRC Menu file - MOOR KUZHABU,Menu File,False,False
+ITEM-012, CUTLET,Veg Main Course,25 person batch,Recipe from NRC Menu file -  CUTLET,Menu File,False,False
+ITEM-013,PORIYAL,Veg Main Course,25 person batch,Recipe from NRC Menu file - PORIYAL,Menu File,False,False
+ITEM-014,KOOTU,Veg Main Course,25 person batch,Recipe from NRC Menu file - KOOTU,Menu File,False,False
+ITEM-015,KARA CURRY,Veg Main Course,25 person batch,Recipe from NRC Menu file - KARA CURRY,Menu File,False,False
+ITEM-016,PARUPPU VADAI,Veg Main Course,25 person batch,Recipe from NRC Menu file - PARUPPU VADAI,Menu File,False,False
+ITEM-017,PAYASAM,Veg Main Course,25 person batch,Recipe from NRC Menu file - PAYASAM,Menu File,False,False
+ITEM-018,TIFFEN SAMBAR,Veg Main Course,25 person batch,Recipe from NRC Menu file - TIFFEN SAMBAR,Menu File,False,False
+ITEM-019,UPMA,Veg Main Course,25 person batch,Recipe from NRC Menu file - UPMA,Menu File,False,False
+ITEM-020,PONGAL,Veg Main Course,25 person batch,Recipe from NRC Menu file - PONGAL,Menu File,False,False
+ITEM-021,RAVA KICHADI,Veg Main Course,25 person batch,Recipe from NRC Menu file - RAVA KICHADI,Menu File,False,False
+ITEM-022,POORI MASALA,Veg Main Course,25 person batch,Recipe from NRC Menu file - POORI MASALA,Menu File,True,False
+ITEM-023,ULLUNDHU VADAI,Veg Main Course,25 person batch,Recipe from NRC Menu file - ULLUNDHU VADAI,Menu File,False,False
+ITEM-024,CURD RICE,Veg Main Course,25 person batch,Recipe from NRC Menu file - CURD RICE,Menu File,False,False
+ITEM-025,VEG BIRYANI,Veg Main Course,25 person batch,Recipe from NRC Menu file - VEG BIRYANI,Menu File,False,False
+ITEM-026,CHI R MUTTON BIRYANI,Veg Main Course,25 person batch,Recipe from NRC Menu file - CHI R MUTTON BIRYANI,Menu File,False,False
+ITEM-027,GHEE RICE,Veg Main Course,25 person batch,Recipe from NRC Menu file - GHEE RICE,Menu File,False,False
+ITEM-028,KADALA CURRY,Veg Main Course,25 person batch,Recipe from NRC Menu file - KADALA CURRY,Menu File,False,False
+ITEM-029,CHI OR MUT KULAMBHU,Veg Main Course,25 person batch,Recipe from NRC Menu file - CHI OR MUT KULAMBHU,Menu File,False,False
+ITEM-030,PANNER BUTTER MASALA,Veg Main Course,25 person batch,Recipe from NRC Menu file - PANNER BUTTER MASALA,Menu File,False,False
+ITEM-031,KARA CHATNI,Veg Main Course,25 person batch,Recipe from NRC Menu file - KARA CHATNI,Menu File,False,False
+ITEM-032,TOMATO CHATNI,Veg Main Course,25 person batch,Recipe from NRC Menu file - TOMATO CHATNI,Menu File,False,False
+ITEM-033,COCONUT CHATNI,Veg Main Course,25 person batch,Recipe from NRC Menu file - COCONUT CHATNI,Menu File,False,False
+ITEM-034,COFFEE TEA SUKKU PAAL,Veg Main Course,25 person batch,Recipe from NRC Menu file - COFFEE TEA SUKKU PAAL,Menu File,False,False

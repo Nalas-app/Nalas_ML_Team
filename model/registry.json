@@ -1,0 +1,20 @@
+{
+  "active_version": "v1.0.0",
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "algorithm": "RandomForestRegressor",
+      "registered_at": "2026-03-28T12:32:35.638875",
+      "training_samples": 620,
+      "metrics": {
+        "test_MAPE": 8.68,
+        "test_RMSE": 1736772.69,
+        "test_R2": 0.9954,
+        "test_MAE": 452601.14
+      },
+      "status": "active"
+    }
+  ],
+  "created_at": "2026-03-28T12:32:34.895369",
+  "updated_at": "2026-03-28T12:32:35.660383"
+}

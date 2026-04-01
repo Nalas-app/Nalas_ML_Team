@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-03-28T12:10:44.798066",
+  "data_summary": {
+    "total_samples": 1000,
+    "valid_samples": 886,
+    "working_items": 26,
+    "train_samples": 620,
+    "val_samples": 133,
+    "test_samples": 133,
+    "split_method": "time-based (70/15/15)"
+  },
+  "model_comparison": [
+    {
+      "model": "Baseline: Mean Cost",
+      "MAE": 452601.14,
+      "RMSE": 1736772.69,
+      "R2": 0.9954,
+      "MAPE": 8.68,
+      "train_time_ms": 9.16,
+      "pred_latency_ms": 0.0075
+    },
+    {
+      "model": "Linear Regression",
+      "MAE": 9046022.26,
+      "RMSE": 25255590.35,
+      "R2": 0.029,
+      "MAPE": 25681.7,
+      "train_time_ms": 4.07,
+      "pred_latency_ms": 0.0114,
+      "CV_R2_mean": 0.6288,
+      "CV_R2_std": 0.1022,
+      "CV_MAPE_mean": 199452.59
+    },
+    {
+      "model": "Ridge Regression",
+      "MAE": 8972866.76,
+      "RMSE": 25144602.43,
+      "R2": 0.0376,
+      "MAPE": 24696.61,
+      "train_time_ms": 3.0,
+      "pred_latency_ms": 0.0074,
+      "CV_R2_mean": 0.6313,
+      "CV_R2_std": 0.1,
+      "CV_MAPE_mean": 194726.65
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 2074091.11,
+      "RMSE": 8565321.31,
+      "R2": 0.8883,
+      "MAPE": 15.13,
+      "train_time_ms": 190.25,
+      "pred_latency_ms": 0.2286,
+      "CV_R2_mean": 0.8653,
+      "CV_R2_std": 0.0754,
+      "CV_MAPE_mean": 36.94
+    },
+    {
+      "model": "Gradient Boosting",
+      "MAE": 1039472.16,
+      "RMSE": 4123708.02,
+      "R2": 0.9741,
+      "MAPE": 18.4,
+      "train_time_ms": 408.09,
+      "pred_latency_ms": 0.0226,
+      "CV_R2_mean": 0.9184,
+      "CV_R2_std": 0.0708,
+      "CV_MAPE_mean": 39.49
+    },
+    {
+      "model": "Random Forest (Tuned)",
+      "MAE": 1947771.89,
+      "RMSE": 8264308.78,
+      "R2": 0.896,
+      "MAPE": 14.63,
+      "best_params": {
+        "max_depth": 15,
+        "min_samples_split": 2,
+        "n_estimators": 200
+      }
+    },
+    {
+      "model": "Gradient Boosting (Tuned)",
+      "MAE": 1066817.8,
+      "RMSE": 3982687.23,
+      "R2": 0.9759,
+      "MAPE": 14.49,
+      "best_params": {
+        "learning_rate": 0.05,
+        "max_depth": 8,
+        "n_estimators": 300
+      }
+    }
+  ],
+  "best_model": {
+    "name": "Baseline: Mean Cost",
+    "metrics": {
+      "model": "Baseline: Mean Cost",
+      "MAE": 452601.14,
+      "RMSE": 1736772.69,
+      "R2": 0.9954,
+      "MAPE": 8.68,
+      "train_time_ms": 9.16,
+      "pred_latency_ms": 0.0075,
+      "CV_R2_mean": NaN,
+      "CV_R2_std": NaN,
+      "CV_MAPE_mean": NaN,
+      "best_params": NaN
+    },
+    "selection_rationale": "Baseline: Mean Cost selected: lowest MAPE (8.68%), highest R\u00b2 (0.9954), acceptable latency"
+  },
+  "tuning_results": {
+    "random_forest_best_params": {
+      "max_depth": 15,
+      "min_samples_split": 2,
+      "n_estimators": 200
+    },
+    "random_forest_best_cv_mape": 37.03,
+    "gradient_boosting_best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 8,
+      "n_estimators": 300
+    },
+    "gradient_boosting_best_cv_mape": 15.76
+  },
+  "error_analysis": {
+    "high_error_predictions_pct": 21.8,
+    "error_by_category": {
+      "mean": {
+        "Breakfast": 43.934050382289215,
+        "Non-Veg Main Course": 30.51647114725109,
+        "Rice": 21.52349824200908,
+        "Veg Main Course": 9.5955390063694
+      },
+      "median": {
+        "Breakfast": 47.01238464847272,
+        "Non-Veg Main Course": 25.81273644157892,
+        "Rice": 17.768996347971587,
+        "Veg Main Course": 7.216525752684852
+      },
+      "count": {
+        "Breakfast": 8,
+        "Non-Veg Main Course": 16,
+        "Rice": 5,
+        "Veg Main Course": 104
+      }
+    }
+  },
+  "model_metadata": {
+    "model_name": "Baseline: Mean Cost",
+    "model_type": "RandomForestRegressor",
+    "version": "v1.0.0",
+    "trained_at": "2026-03-28T12:10:44.797049",
+    "training_samples": 620,
+    "test_samples": 133,
+    "features": [
+      "base_ingredient_cost",
+      "quantity",
+      "recipe_complexity",
+      "guest_count",
+      "historical_demand",
+      "days_until_event",
+      "price_volatility",
+      "recent_price_trend",
+      "has_perishable",
+      "is_weekend",
+      "is_wedding_season",
+      "is_festival_season",
+      "month_sin",
+      "month_cos",
+      "day_of_week_sin",
+      "day_of_week_cos",
+      "menu_category_breakfast",
+      "menu_category_nonveg_main",
+      "menu_category_rice",
+      "menu_category_veg_main",
+      "event_type_Birthday",
+      "event_type_Corporate",
+      "event_type_Other",
+      "event_type_Wedding"
+    ],
+    "n_features": 24,
+    "metrics": {
+      "test_MAPE": 8.68,
+      "test_RMSE": 1736772.69,
+      "test_R2": 0.9954,
+      "test_MAE": 452601.14
+    },
+    "hyperparameters": {},
+    "all_models_compared": [
+      "Baseline: Mean Cost",
+      "Linear Regression",
+      "Ridge Regression",
+      "Random Forest",
+      "Gradient Boosting",
+      "Random Forest (Tuned)",
+      "Gradient Boosting (Tuned)"
+    ]
+  }
+}
