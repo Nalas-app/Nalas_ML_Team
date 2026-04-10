@@ -42,6 +42,9 @@ class ProductionPredictor:
     # Confidence below this threshold flags for manual review
     MANUAL_REVIEW_THRESHOLD = 0.60
 
+    # Deviation from rule-based baseline above this triggers outlier flag
+    OUTLIER_DEVIATION_THRESHOLD = 0.35
+
     def __init__(self, model_dir: str, data_dir: str, config_path: str):
         self.model_dir = model_dir
         self.data_dir = data_dir
@@ -62,6 +65,7 @@ class ProductionPredictor:
         # Tracking
         self._ml_predictions = 0
         self._rule_predictions = 0
+        self._outlier_count = 0
         self._fallback_reasons = []
 
     def initialize(self):
@@ -175,6 +179,28 @@ class ProductionPredictor:
                         fallback_reason="low_ml_confidence"
                     )
 
+                # ============================================================
+                # OUTLIER DETECTION (Mugil's Feature)
+                # ============================================================
+                # Compare ML prediction against deterministic rule-based baseline
+                try:
+                    baseline = self._engine.predict(menu_item_id, quantity, event_date, guest_count)
+                    rule_total = baseline["totalCost"]
+                    ml_total = result["totalCost"]
+                    
+                    if rule_total > 0:
+                        deviation = abs(ml_total - rule_total) / rule_total
+                        if deviation > self.OUTLIER_DEVIATION_THRESHOLD:
+                            result["_meta"]["is_outlier"] = True
+                            result["_meta"]["flags"].append(f"outlier_detected:{deviation:.1%}_deviation")
+                            self._outlier_count += 1
+                            logger.warning(
+                                f"OUTLIER DETECTED: ML Prediction (Rs.{ml_total}) deviates from "
+                                f"Rule-based (Rs.{rule_total}) by {deviation:.1%}"
+                            )
+                except Exception as e:
+                    logger.error(f"Failed to perform outlier cross-check: {e}")
+
                 # Flag for manual review if below review threshold
                 if result["confidence"] < self.MANUAL_REVIEW_THRESHOLD:
                     result["_meta"]["flags"].append("manual_review_recommended")
@@ -259,6 +285,7 @@ class ProductionPredictor:
                 "item_name": item['item_name'],
                 "quantity": quantity,
                 "ml_raw_prediction": round(raw_prediction, 2),
+                "is_outlier": False,  # Default
                 "flags": [],
                 "seasonal_adjustment": 0.0,
                 "bulk_discount": 0.0,
@@ -281,6 +308,7 @@ class ProductionPredictor:
         # Add fallback info
         result["_meta"]["fallback_reason"] = fallback_reason
         result["_meta"]["latency_ms"] = round(latency, 2)
+        result["_meta"]["is_outlier"] = False # Rule-based is baseline, never outlier
 
         self._rule_predictions += 1
         return result
@@ -347,8 +375,10 @@ class ProductionPredictor:
             "total_predictions": total,
             "ml_predictions": self._ml_predictions,
             "rule_based_predictions": self._rule_predictions,
+            "outlier_count": self._outlier_count,
             "ml_rate_pct": round(self._ml_predictions / total * 100, 2) if total > 0 else 0,
             "fallback_rate_pct": round(self._rule_predictions / total * 100, 2) if total > 0 else 0,
+            "outlier_rate_pct": round(self._outlier_count / max(self._ml_predictions, 1) * 100, 2),
             "ml_available": self.is_ml_available,
             "active_version": self.active_model_version,
             "recent_fallback_reasons": self._fallback_reasons[-10:],
