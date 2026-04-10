@@ -1,0 +1,112 @@
+[
+  {
+    "recipe_id": "rec_001",
+    "recipe_name": "Spicy Chicken Tacos",
+    "imputed_fields": [
+      "servings"
+    ],
+    "original_values": {
+      "servings": null
+    },
+    "final_values": {
+      "servings": 4
+    }
+  },
+  {
+    "recipe_id": "rec_003",
+    "recipe_name": "Quick Smoothie",
+    "imputed_fields": [
+      "servings"
+    ],
+    "original_values": {
+      "servings": null
+    },
+    "final_values": {
+      "servings": 4
+    }
+  },
+  {
+    "recipe_id": "rec_004",
+    "recipe_name": "Garden Salad",
+    "imputed_fields": [
+      "prep_time_minutes",
+      "servings"
+    ],
+    "original_values": {
+      "prep_time_minutes": null,
+      "servings": null
+    },
+    "final_values": {
+      "prep_time_minutes": 22,
+      "servings": 4
+    }
+  },
+  {
+    "recipe_id": "rec_006",
+    "recipe_name": "Margherita Pizza",
+    "imputed_fields": [
+      "servings"
+    ],
+    "original_values": {
+      "servings": null
+    },
+    "final_values": {
+      "servings": 4
+    }
+  },
+  {
+    "recipe_id": "rec_008",
+    "recipe_name": "Tomato Basil Soup",
+    "imputed_fields": [
+      "servings"
+    ],
+    "original_values": {
+      "servings": null
+    },
+    "final_values": {
+      "servings": 4
+    }
+  },
+  {
+    "recipe_id": "rec_009",
+    "recipe_name": "Spicy Chicken Tacos",
+    "imputed_fields": [
+      "servings"
+    ],
+    "original_values": {
+      "servings": null
+    },
+    "final_values": {
+      "servings": 4
+    }
+  },
+  {
+    "recipe_id": "rec_011",
+    "recipe_name": "Energy Granola Bars",
+    "imputed_fields": [
+      "prep_time_minutes",
+      "servings"
+    ],
+    "original_values": {
+      "prep_time_minutes": null,
+      "servings": null
+    },
+    "final_values": {
+      "prep_time_minutes": 22,
+      "servings": 4
+    }
+  },
+  {
+    "recipe_id": "rec_012",
+    "recipe_name": "Avocado Toast",
+    "imputed_fields": [
+      "servings"
+    ],
+    "original_values": {
+      "servings": null
+    },
+    "final_values": {
+      "servings": 4
+    }
+  }
+]

@@ -1,0 +1,874 @@
+[
+  {
+    "recipe_id": "rec_001",
+    "name": "Spicy Chicken Tacos",
+    "ingredients": [
+      {
+        "quantity": 2.0,
+        "unit": "cup",
+        "item": "shredded chicken",
+        "normalized_item": null,
+        "original_text": "- 2 cups shredded chicken",
+        "si_quantity": 473.176,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "taco seasoning",
+        "normalized_item": null,
+        "original_text": "- 1 tbsp taco seasoning",
+        "si_quantity": 14.787,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "salsa",
+        "normalized_item": null,
+        "original_text": "- 0.5 cup salsa",
+        "si_quantity": 118.294,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "4 tortillas",
+        "normalized_item": null,
+        "original_text": "- 4 tortillas"
+      }
+    ],
+    "instructions": [
+      "Mix chicken and seasoning.",
+      "Warm tortillas on a dry skillet for 30 seconds each side.",
+      "Assemble tacos and top with salsa.",
+      "Servings: 4"
+    ],
+    "prep_time_minutes": 15,
+    "servings": 4,
+    "tags": [
+      "quick",
+      "vegan-friendly",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [
+        "servings"
+      ],
+      "original_values": {
+        "servings": null
+      },
+      "parse_warnings": [
+        "Servings not found in text."
+      ],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_002",
+    "name": "Classic Pancakes",
+    "ingredients": [
+      {
+        "quantity": 1.5,
+        "unit": "cup",
+        "item": "flour",
+        "normalized_item": null,
+        "original_text": "1.5 cups flour",
+        "si_quantity": 354.882,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "sugar",
+        "normalized_item": null,
+        "original_text": "2 tbsp sugar",
+        "si_quantity": 29.574,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "milk",
+        "normalized_item": null,
+        "original_text": "1 cup milk",
+        "si_quantity": 236.588,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "1 egg",
+        "normalized_item": null,
+        "original_text": "1 egg"
+      }
+    ],
+    "instructions": [
+      "Whisk dry ingredients together in a large bowl.",
+      "Add wet ingredients and stir until just combined.",
+      "Cook on a buttered skillet over medium heat until bubbles form, then flip."
+    ],
+    "prep_time_minutes": 20,
+    "servings": 2,
+    "tags": [
+      "baking",
+      "quick",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [],
+      "original_values": {},
+      "parse_warnings": [],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_003",
+    "name": "Quick Smoothie",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "1 banana",
+        "normalized_item": null,
+        "original_text": "1 banana"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "milk",
+        "normalized_item": null,
+        "original_text": "1 cup milk",
+        "si_quantity": 236.588,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "frozen berries",
+        "normalized_item": null,
+        "original_text": "1/2 cup frozen berries",
+        "si_quantity": 118.294,
+        "si_unit": "ml"
+      }
+    ],
+    "instructions": [
+      "Blend everything until smooth.",
+      "Serve immediately."
+    ],
+    "prep_time_minutes": 5,
+    "servings": 4,
+    "tags": [
+      "blended",
+      "quick",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [
+        "servings"
+      ],
+      "original_values": {
+        "servings": null
+      },
+      "parse_warnings": [
+        "Servings not found in text."
+      ],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_004",
+    "name": "Garden Salad",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "lettuce",
+        "normalized_item": null,
+        "original_text": "lettuce"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "tomato",
+        "normalized_item": null,
+        "original_text": "tomato"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "cucumber",
+        "normalized_item": null,
+        "original_text": "cucumber"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "dressing",
+        "normalized_item": null,
+        "original_text": "dressing"
+      }
+    ],
+    "instructions": [
+      "Toss all leaves with dressing and serve chilled.",
+      "Servings: 1"
+    ],
+    "prep_time_minutes": 22,
+    "servings": 4,
+    "tags": [
+      "vegan-friendly",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [
+        "prep_time_minutes",
+        "servings"
+      ],
+      "original_values": {
+        "prep_time_minutes": null,
+        "servings": null
+      },
+      "parse_warnings": [
+        "Prep time not found in text.",
+        "Servings not found in text."
+      ],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_005",
+    "name": "Beef Stew",
+    "ingredients": [
+      {
+        "quantity": 1.0,
+        "unit": "lb",
+        "item": "beef chuck, cubed",
+        "normalized_item": "beef chuck",
+        "original_text": "• 1 lb beef chuck, cubed",
+        "si_quantity": 453.592,
+        "si_unit": "g"
+      },
+      {
+        "quantity": 500.0,
+        "unit": "g",
+        "item": "potatoes, diced",
+        "normalized_item": "potatoes",
+        "original_text": "• 500 g potatoes, diced",
+        "si_quantity": 500.0,
+        "si_unit": "g"
+      },
+      {
+        "quantity": 2.0,
+        "unit": "cup",
+        "item": "water",
+        "normalized_item": null,
+        "original_text": "• 2 cups water",
+        "si_quantity": 473.176,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "normalized_item": "oil",
+        "original_text": "• 1 tablespoon olive oil",
+        "si_quantity": 14.787,
+        "si_unit": "ml"
+      }
+    ],
+    "instructions": [
+      "Heat oil in a large pot.",
+      "Brown the beef on all sides.",
+      "Add potatoes and water.",
+      "Bring to a boil.",
+      "Reduce heat and simmer until tender."
+    ],
+    "prep_time_minutes": 120,
+    "servings": 6,
+    "tags": [
+      "slow-cook",
+      "vegan-friendly",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [],
+      "original_values": {},
+      "parse_warnings": [],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_006",
+    "name": "Margherita Pizza",
+    "ingredients": [
+      {
+        "quantity": 2.0,
+        "unit": "cup",
+        "item": "all-purpose flour",
+        "normalized_item": "flour",
+        "original_text": "2 cups all-purpose flour",
+        "si_quantity": 473.176,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "dry yeast",
+        "normalized_item": null,
+        "original_text": "1 tsp dry yeast",
+        "si_quantity": 4.929,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "warm water",
+        "normalized_item": null,
+        "original_text": "3/4 cup warm water",
+        "si_quantity": 177.441,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "normalized_item": "oil",
+        "original_text": "2 tbsp olive oil",
+        "si_quantity": 29.574,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "tomato sauce",
+        "normalized_item": null,
+        "original_text": "1 cup tomato sauce",
+        "si_quantity": 236.588,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 200.0,
+        "unit": "g",
+        "item": "mozzarella cheese",
+        "normalized_item": null,
+        "original_text": "200 g mozzarella cheese",
+        "si_quantity": 200.0,
+        "si_unit": "g"
+      }
+    ],
+    "instructions": [
+      "Combine flour, yeast, water and oil.",
+      "Knead 10 minutes.",
+      "Let dough rise 1 hour.",
+      "Roll out and spread tomato sauce.",
+      "Top with sliced mozzarella.",
+      "Bake at 220C for 15 minutes until golden.",
+      "Servings: 2"
+    ],
+    "prep_time_minutes": 90,
+    "servings": 4,
+    "tags": [
+      "baking",
+      "slow-cook",
+      "vegan-friendly",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [
+        "servings"
+      ],
+      "original_values": {
+        "servings": null
+      },
+      "parse_warnings": [
+        "Servings not found in text."
+      ],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_007",
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      {
+        "quantity": 2.25,
+        "unit": "cup",
+        "item": "flour",
+        "normalized_item": null,
+        "original_text": "2.25 cups flour",
+        "si_quantity": 532.323,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "baking soda",
+        "normalized_item": null,
+        "original_text": "1 tsp baking soda",
+        "si_quantity": 4.929,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "salt",
+        "normalized_item": null,
+        "original_text": "1 tsp salt",
+        "si_quantity": 4.929,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "(2 sticks) butter, softened",
+        "normalized_item": "butter",
+        "original_text": "1 cup (2 sticks) butter, softened",
+        "si_quantity": 236.588,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "granulated sugar",
+        "normalized_item": "sugar",
+        "original_text": "3/4 cup granulated sugar",
+        "si_quantity": 177.441,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "packed brown sugar",
+        "normalized_item": null,
+        "original_text": "3/4 cup packed brown sugar",
+        "si_quantity": 177.441,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "2 large eggs",
+        "normalized_item": null,
+        "original_text": "2 large eggs"
+      },
+      {
+        "quantity": 2.0,
+        "unit": "cup",
+        "item": "chocolate chips",
+        "normalized_item": null,
+        "original_text": "2 cups chocolate chips",
+        "si_quantity": 473.176,
+        "si_unit": "ml"
+      }
+    ],
+    "instructions": [
+      "Preheat oven to 375 F.",
+      "Mix butter and both sugars until creamy.",
+      "Add eggs.",
+      "Gradually blend in flour mixture.",
+      "Stir in chocolate chips.",
+      "Drop rounded tablespoons onto baking sheets and bake 9-11 minutes."
+    ],
+    "prep_time_minutes": 35,
+    "servings": 48,
+    "tags": [
+      "baking",
+      "blended",
+      "vegan-friendly",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [],
+      "original_values": {},
+      "parse_warnings": [],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_008",
+    "name": "Tomato Basil Soup",
+    "ingredients": [
+      {
+        "quantity": 800.0,
+        "unit": "g",
+        "item": "canned crushed tomatoes",
+        "normalized_item": null,
+        "original_text": "- 800 g canned crushed tomatoes",
+        "si_quantity": 800.0,
+        "si_unit": "g"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "1 onion, chopped",
+        "normalized_item": "1 onion",
+        "original_text": "- 1 onion, chopped"
+      },
+      {
+        "quantity": 3.0,
+        "unit": "clove",
+        "item": "garlic",
+        "normalized_item": null,
+        "original_text": "- 3 cloves garlic"
+      },
+      {
+        "quantity": 200.0,
+        "unit": "ml",
+        "item": "cream",
+        "normalized_item": null,
+        "original_text": "- 200 ml cream",
+        "si_quantity": 200.0,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "normalized_item": "oil",
+        "original_text": "- 1 tbsp olive oil",
+        "si_quantity": 14.787,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "10 fresh basil leaves",
+        "normalized_item": null,
+        "original_text": "- 10 fresh basil leaves"
+      }
+    ],
+    "instructions": [
+      "Saute onion and garlic in oil until soft.",
+      "Add tomatoes and simmer 20 minutes.",
+      "Blend until smooth.",
+      "Stir in cream and basil.",
+      "Season with salt.",
+      "Servings: 4"
+    ],
+    "prep_time_minutes": 30,
+    "servings": 4,
+    "tags": [
+      "blended",
+      "quick",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [
+        "servings"
+      ],
+      "original_values": {
+        "servings": null
+      },
+      "parse_warnings": [
+        "Servings not found in text."
+      ],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_009",
+    "name": "Spicy Chicken Tacos",
+    "ingredients": [
+      {
+        "quantity": 2.0,
+        "unit": "cup",
+        "item": "shredded chicken",
+        "normalized_item": null,
+        "original_text": "- 2 cups shredded chicken",
+        "si_quantity": 473.176,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "taco seasoning",
+        "normalized_item": null,
+        "original_text": "- 1 tbsp taco seasoning",
+        "si_quantity": 14.787,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "salsa",
+        "normalized_item": null,
+        "original_text": "- 0.5 cup salsa",
+        "si_quantity": 118.294,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "4 tortillas",
+        "normalized_item": null,
+        "original_text": "- 4 tortillas"
+      }
+    ],
+    "instructions": [
+      "Mix chicken and seasoning.",
+      "Warm tortillas on a dry skillet for 30 seconds each side.",
+      "Assemble tacos and top with salsa.",
+      "Servings: 4"
+    ],
+    "prep_time_minutes": 15,
+    "servings": 4,
+    "tags": [
+      "quick",
+      "vegan-friendly",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [
+        "servings"
+      ],
+      "original_values": {
+        "servings": null
+      },
+      "parse_warnings": [
+        "Servings not found in text."
+      ],
+      "is_duplicate": true,
+      "duplicate_of": "rec_001"
+    }
+  },
+  {
+    "recipe_id": "rec_010",
+    "name": "Lemon Garlic Shrimp Pasta",
+    "ingredients": [
+      {
+        "quantity": 300.0,
+        "unit": "g",
+        "item": "spaghetti",
+        "normalized_item": null,
+        "original_text": "- 300 g spaghetti",
+        "si_quantity": 300.0,
+        "si_unit": "g"
+      },
+      {
+        "quantity": 500.0,
+        "unit": "g",
+        "item": "shrimp, peeled",
+        "normalized_item": "shrimp",
+        "original_text": "- 500 g shrimp, peeled",
+        "si_quantity": 500.0,
+        "si_unit": "g"
+      },
+      {
+        "quantity": 4.0,
+        "unit": "clove",
+        "item": "garlic, minced",
+        "normalized_item": "garlic",
+        "original_text": "- 4 cloves garlic, minced"
+      },
+      {
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "item": "butter",
+        "normalized_item": null,
+        "original_text": "- 3 tbsp butter",
+        "si_quantity": 44.361,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "lemon juice",
+        "normalized_item": null,
+        "original_text": "- 2 tbsp lemon juice",
+        "si_quantity": 29.574,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "red pepper flakes",
+        "normalized_item": null,
+        "original_text": "- 1/4 tsp red pepper flakes",
+        "si_quantity": 1.232,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "Fresh parsley",
+        "normalized_item": null,
+        "original_text": "- Fresh parsley"
+      }
+    ],
+    "instructions": [
+      "Cook pasta according to package directions.",
+      "In a skillet, melt butter and saute garlic until fragrant.",
+      "Add shrimp and cook until pink, about 3 minutes per side.",
+      "Toss pasta with shrimp mixture, lemon juice and parsley."
+    ],
+    "prep_time_minutes": 25,
+    "servings": 3,
+    "tags": [
+      "quick",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [],
+      "original_values": {},
+      "parse_warnings": [],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_011",
+    "name": "Energy Granola Bars",
+    "ingredients": [
+      {
+        "quantity": 2.0,
+        "unit": "cup",
+        "item": "rolled oats",
+        "normalized_item": null,
+        "original_text": "2 cups rolled oats",
+        "si_quantity": 473.176,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "peanut butter",
+        "normalized_item": null,
+        "original_text": "1 cup peanut butter",
+        "si_quantity": 236.588,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "honey",
+        "normalized_item": null,
+        "original_text": "1/2 cup honey",
+        "si_quantity": 118.294,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "chocolate chips",
+        "normalized_item": null,
+        "original_text": "1/4 cup chocolate chips",
+        "si_quantity": 59.147,
+        "si_unit": "ml"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "dried cranberries",
+        "normalized_item": null,
+        "original_text": "1/4 cup dried cranberries",
+        "si_quantity": 59.147,
+        "si_unit": "ml"
+      }
+    ],
+    "instructions": [
+      "Mix all ingredients together until well combined.",
+      "Press into a lined baking pan.",
+      "Refrigerate for 2 hours until firm.",
+      "Cut into bars and serve."
+    ],
+    "prep_time_minutes": 22,
+    "servings": 4,
+    "tags": [
+      "vegan-friendly",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [
+        "prep_time_minutes",
+        "servings"
+      ],
+      "original_values": {
+        "prep_time_minutes": null,
+        "servings": null
+      },
+      "parse_warnings": [
+        "Prep time not found in text.",
+        "Servings not found in text."
+      ],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  },
+  {
+    "recipe_id": "rec_012",
+    "name": "Avocado Toast",
+    "ingredients": [
+      {
+        "quantity": 2.0,
+        "unit": "slice",
+        "item": "sourdough bread",
+        "normalized_item": null,
+        "original_text": "- 2 slices sourdough bread"
+      },
+      {
+        "quantity": null,
+        "unit": null,
+        "item": "1 ripe avocado",
+        "normalized_item": null,
+        "original_text": "- 1 ripe avocado"
+      },
+      {
+        "quantity": null,
+        "unit": "pinch",
+        "item": "of sea salt",
+        "normalized_item": null,
+        "original_text": "- pinch of sea salt"
+      },
+      {
+        "quantity": null,
+        "unit": "pinch",
+        "item": "of red pepper flakes",
+        "normalized_item": null,
+        "original_text": "- pinch of red pepper flakes"
+      },
+      {
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "lemon juice",
+        "normalized_item": null,
+        "original_text": "- 1 tsp lemon juice",
+        "si_quantity": 4.929,
+        "si_unit": "ml"
+      }
+    ],
+    "instructions": [
+      "Toast bread until golden.",
+      "Mash avocado with lemon juice and salt.",
+      "Spread onto toast and garnish with pepper flakes.",
+      "Servings: 1"
+    ],
+    "prep_time_minutes": 10,
+    "servings": 4,
+    "tags": [
+      "quick",
+      "vegan-friendly",
+      "vegetarian"
+    ],
+    "_meta": {
+      "imputed_fields": [
+        "servings"
+      ],
+      "original_values": {
+        "servings": null
+      },
+      "parse_warnings": [
+        "Servings not found in text."
+      ],
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  }
+]

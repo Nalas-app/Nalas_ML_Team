@@ -1,0 +1,106 @@
+{
+  "run_timestamp": "2026-04-10T22:17:55.186701",
+  "elapsed_seconds": 0.282,
+  "total_recipes": 12,
+  "validation_issues": {
+    "errors": 0,
+    "warnings": 11,
+    "info": 10
+  },
+  "dataset_stats": {
+    "total_recipes": 12,
+    "duplicate_count": 1,
+    "imputed_prep_time_count": 2,
+    "imputed_servings_count": 8,
+    "missing_rate_prep_time_pct": 16.7,
+    "missing_rate_servings_pct": 66.7,
+    "prep_time_minutes_stats": {
+      "count": 12,
+      "mean": 34.08,
+      "median": 22.0,
+      "std": 33.23,
+      "min": 5.0,
+      "max": 120.0
+    },
+    "servings_stats": {
+      "count": 12,
+      "mean": 7.58,
+      "median": 4.0,
+      "std": 12.22,
+      "min": 2.0,
+      "max": 48.0
+    },
+    "avg_ingredients_per_recipe": 5.0,
+    "avg_steps_per_recipe": 4.25,
+    "top_15_ingredients": [
+      {
+        "item": "flour",
+        "count": 3
+      },
+      {
+        "item": "oil",
+        "count": 3
+      },
+      {
+        "item": "shredded chicken",
+        "count": 2
+      },
+      {
+        "item": "taco seasoning",
+        "count": 2
+      },
+      {
+        "item": "salsa",
+        "count": 2
+      },
+      {
+        "item": "4 tortillas",
+        "count": 2
+      },
+      {
+        "item": "sugar",
+        "count": 2
+      },
+      {
+        "item": "milk",
+        "count": 2
+      },
+      {
+        "item": "butter",
+        "count": 2
+      },
+      {
+        "item": "chocolate chips",
+        "count": 2
+      },
+      {
+        "item": "garlic",
+        "count": 2
+      },
+      {
+        "item": "lemon juice",
+        "count": 2
+      },
+      {
+        "item": "1 egg",
+        "count": 1
+      },
+      {
+        "item": "1 banana",
+        "count": 1
+      },
+      {
+        "item": "frozen berries",
+        "count": 1
+      }
+    ],
+    "tag_distribution": {
+      "vegetarian": 12,
+      "vegan-friendly": 8,
+      "quick": 7,
+      "baking": 3,
+      "blended": 3,
+      "slow-cook": 2
+    }
+  }
+}

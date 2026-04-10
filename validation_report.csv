@@ -1,0 +1,22 @@
+recipe_id,recipe_name,check_type,severity,field,description
+rec_001,Spicy Chicken Tacos,missing_optional,warning,servings,'servings' is missing (will be imputed).
+rec_001,Spicy Chicken Tacos,parse_warning,info,—,Servings not found in text.
+rec_003,Quick Smoothie,missing_optional,warning,servings,'servings' is missing (will be imputed).
+rec_003,Quick Smoothie,parse_warning,info,—,Servings not found in text.
+rec_004,Garden Salad,missing_optional,warning,prep_time_minutes,'prep_time_minutes' is missing (will be imputed).
+rec_004,Garden Salad,missing_optional,warning,servings,'servings' is missing (will be imputed).
+rec_004,Garden Salad,parse_warning,info,—,Prep time not found in text.
+rec_004,Garden Salad,parse_warning,info,—,Servings not found in text.
+rec_006,Margherita Pizza,missing_optional,warning,servings,'servings' is missing (will be imputed).
+rec_006,Margherita Pizza,parse_warning,info,—,Servings not found in text.
+rec_008,Tomato Basil Soup,missing_optional,warning,servings,'servings' is missing (will be imputed).
+rec_008,Tomato Basil Soup,parse_warning,info,—,Servings not found in text.
+rec_009,Spicy Chicken Tacos,missing_optional,warning,servings,'servings' is missing (will be imputed).
+rec_009,Spicy Chicken Tacos,duplicate,warning,name + ingredients,Duplicate of recipe rec_001.
+rec_009,Spicy Chicken Tacos,parse_warning,info,—,Servings not found in text.
+rec_011,Energy Granola Bars,missing_optional,warning,prep_time_minutes,'prep_time_minutes' is missing (will be imputed).
+rec_011,Energy Granola Bars,missing_optional,warning,servings,'servings' is missing (will be imputed).
+rec_011,Energy Granola Bars,parse_warning,info,—,Prep time not found in text.
+rec_011,Energy Granola Bars,parse_warning,info,—,Servings not found in text.
+rec_012,Avocado Toast,missing_optional,warning,servings,'servings' is missing (will be imputed).
+rec_012,Avocado Toast,parse_warning,info,—,Servings not found in text.
