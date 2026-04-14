@@ -60,7 +60,7 @@ class PredictionLogger:
             """)
             conn.commit()
             conn.close()
-            logger.info(f"Prediction database initialized at {self.db_path} ✓")
+            logger.info(f"Prediction database initialized at {self.db_path}")
         except Exception as e:
             logger.error(f"Failed to initialize prediction database: {e}")
 
