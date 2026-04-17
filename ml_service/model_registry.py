@@ -206,7 +206,7 @@ class ModelRegistry:
         # Load pipeline
         pipeline_path = os.path.join(version_dir, "pipeline.pkl")
         try:
-            from feature_pipeline import FeaturePipeline
+            from ml_service.feature_pipeline import FeaturePipeline
             pipeline = FeaturePipeline.load(pipeline_path)
         except Exception:
             with open(pipeline_path, 'rb') as f:

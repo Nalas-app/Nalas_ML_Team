@@ -80,7 +80,7 @@ class ProductionPredictor:
             logger.info("Initializing ProductionPredictor...")
 
             # 1. Load data store (always needed)
-            from cost_engine import DataStore, BusinessRules, CostEngine
+            from ml_service.cost_engine import DataStore, BusinessRules, CostEngine
             self._data_store = DataStore(self.data_dir)
             self._data_store.load()
 
@@ -93,7 +93,7 @@ class ProductionPredictor:
 
             # 4. Try to load ML model
             try:
-                from model_registry import ModelRegistry
+                from ml_service.model_registry import ModelRegistry
                 self._registry = ModelRegistry(self.model_dir)
 
                 active_version = self._registry.get_active_version()
@@ -231,7 +231,7 @@ class ProductionPredictor:
         event_type: Optional[str],
     ) -> Dict[str, Any]:
         """ML model prediction path."""
-        from cost_engine import CostingError
+        from ml_service.cost_engine import CostingError
 
         # 1. Input validation (reuse engine validation)
         if quantity <= 0:
