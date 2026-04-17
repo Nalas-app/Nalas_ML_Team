@@ -22,9 +22,10 @@ import logging
 from datetime import datetime
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, Depends, Security
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from fastapi.security.api_key import APIKeyHeader
 
 # Local imports
 from schemas import (
@@ -162,6 +163,25 @@ async def costing_error_handler(request: Request, exc: CostingError):
 
 
 # ============================================================
+# SECURITY
+# ============================================================
+API_KEY_NAME = "X-API-Key"
+api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
+
+def get_api_key(api_key: str = Security(api_key_header)):
+    """Validate API keys from headers."""
+    expected_key = os.getenv("ML_API_KEY", "nalas-ml-secret-2026")
+    if api_key == expected_key:
+        return api_key
+    
+    logger.warning(f"Unauthorized access attempt with API key: {api_key}")
+    raise HTTPException(
+        status_code=403,
+        detail="Could not validate API Key"
+    )
+
+
+# ============================================================
 # ROUTES
 # ============================================================
 
@@ -177,7 +197,7 @@ def root():
     }
 
 
-@app.post("/ml/predict-cost", response_model=CostPredictionResponse)
+@app.post("/ml/predict-cost", response_model=CostPredictionResponse, dependencies=[Depends(get_api_key)])
 async def predict_cost(request: CostPredictionRequest):
     """
     Predict cost breakdown for a menu item.
@@ -247,7 +267,7 @@ async def predict_cost(request: CostPredictionRequest):
         raise CostingError("ML_500", f"Internal error: {str(e)}")
 
 
-@app.get("/ml/health", response_model=HealthResponse)
+@app.get("/ml/health", response_model=HealthResponse, dependencies=[Depends(get_api_key)])
 async def health_check():
     """Service health check."""
     is_healthy = predictor is not None and predictor._initialized
@@ -263,7 +283,7 @@ async def health_check():
     )
 
 
-@app.get("/ml/model-info", response_model=ModelInfoResponse)
+@app.get("/ml/model-info", response_model=ModelInfoResponse, dependencies=[Depends(get_api_key)])
 async def model_info():
     """Get information about the active model."""
     is_up = predictor is not None and predictor._initialized
@@ -280,7 +300,7 @@ async def model_info():
     )
 
 
-@app.get("/ml/metrics")
+@app.get("/ml/metrics", dependencies=[Depends(get_api_key)])
 async def get_metrics():
     """Get prediction metrics and fallback stats."""
     metrics = pred_logger.get_metrics()
@@ -304,7 +324,7 @@ async def get_metrics():
     }
 
 
-@app.get("/ml/menu-items")
+@app.get("/ml/menu-items", dependencies=[Depends(get_api_key)])
 async def list_menu_items():
     """List all available menu items and their prediction readiness."""
     if predictor is None or not predictor._initialized or predictor._data_store is None:

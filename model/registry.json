@@ -1,5 +1,5 @@
 {
-  "active_version": "v1.0.0",
+  "active_version": "v1.0.1",
   "versions": [
     {
       "version": "v1.0.0",
@@ -12,9 +12,22 @@
         "test_R2": 0.9954,
         "test_MAE": 452601.14
       },
+      "status": "inactive"
+    },
+    {
+      "version": "v1.0.1",
+      "algorithm": "GradientBoosting",
+      "registered_at": "2026-04-17T13:34:12.793582",
+      "training_samples": 780,
+      "metrics": {
+        "mape": 8.11,
+        "rmse": 859504.45,
+        "r2": 0.9878,
+        "mae": 114071.3
+      },
       "status": "active"
     }
   ],
   "created_at": "2026-03-28T12:32:34.895369",
-  "updated_at": "2026-03-28T12:32:35.660383"
+  "updated_at": "2026-04-17T13:34:12.799378"
 }
