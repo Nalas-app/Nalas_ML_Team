@@ -67,6 +67,7 @@ class ProductionPredictor:
         self._rule_predictions = 0
         self._outlier_count = 0
         self._fallback_reasons = []
+        self._init_error = None
 
     def initialize(self):
         """
@@ -108,8 +109,12 @@ class ProductionPredictor:
                     )
                 else:
                     logger.warning("No active ML model version — using rule-based only")
+                    self._init_error = "No active ML model version found in registry.json"
             except Exception as e:
+                import traceback
+                error_detail = f"{type(e).__name__}: {str(e)}\n{traceback.format_exc()}"
                 logger.warning(f"ML model not available: {e} — using rule-based only")
+                self._init_error = error_detail
 
             self._initialized = True
             logger.info("ProductionPredictor initialized successfully")

@@ -185,6 +185,40 @@ def get_api_key(api_key: str = Security(api_key_header)):
 # ROUTES
 # ============================================================
 
+@app.get("/ml/diagnose")
+def diagnose():
+    """Diagnostic endpoint to debug environment issues."""
+    try:
+        model_exists = os.path.exists(MODEL_DIR)
+        model_files = os.listdir(MODEL_DIR) if model_exists else []
+        
+        v101_dir = os.path.join(MODEL_DIR, "v1.0.1")
+        v101_exists = os.path.exists(v101_dir)
+        v101_files = os.listdir(v101_dir) if v101_exists else []
+
+        return {
+            "status": "diagnostic_mode",
+            "paths": {
+                "base_dir": BASE_DIR,
+                "model_dir": MODEL_DIR,
+                "data_dir": DATA_DIR
+            },
+            "filesystem": {
+                "model_dir_exists": model_exists,
+                "root_model_files": model_files,
+                "v101_exists": v101_exists,
+                "v101_files": v101_files
+            },
+            "predictor_state": {
+                "initialized": predictor._initialized if predictor else False,
+                "ml_available": predictor.is_ml_available if predictor else False,
+                "init_error": predictor._init_error if predictor else "Predictor not created"
+            }
+        }
+    except Exception as e:
+        import traceback
+        return {"error": str(e), "traceback": traceback.format_exc()}
+
 @app.get("/")
 def root():
     """Root endpoint."""
@@ -194,6 +228,7 @@ def root():
         "version": "1.0.0",
         "ml_available": predictor.is_ml_available if is_up else False,
         "docs": "/docs",
+        "diagnostic": "/ml/diagnose"
     }
 
 
