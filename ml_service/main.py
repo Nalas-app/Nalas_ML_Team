@@ -28,7 +28,7 @@ from fastapi.responses import JSONResponse
 from fastapi.security.api_key import APIKeyHeader
 
 # Local imports
-from schemas import (
+from ml_service.schemas import (
     CostPredictionRequest,
     CostPredictionResponse,
     ErrorResponse,
@@ -36,9 +36,9 @@ from schemas import (
     HealthResponse,
     ModelInfoResponse,
 )
-from cost_engine import CostingError
-from production_predictor import ProductionPredictor
-from prediction_logger import PredictionLogger
+from ml_service.cost_engine import CostingError
+from ml_service.production_predictor import ProductionPredictor
+from ml_service.prediction_logger import PredictionLogger
 
 # ============================================================
 # LOGGING SETUP
